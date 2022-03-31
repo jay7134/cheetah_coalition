@@ -52,64 +52,64 @@ export default function Hero() {
                 static
                 >   
                 <div className="carousel-cell">
-                    <Image src={slide1} width={194} height={194}/>
+                    <Image src={slide1} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide2} width={194} height={194}/>
+                    <Image src={slide2} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide3} width={194} height={194}/>
+                    <Image src={slide3} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide4} width={194} height={194}/>
+                    <Image src={slide4} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide5} width={194} height={194}/>
+                    <Image src={slide5} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide6} width={194} height={194}/>
+                    <Image src={slide6} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide7} width={194} height={194}/>
+                    <Image src={slide7} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide8} width={194} height={194}/>
+                    <Image src={slide8} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide9} width={194} height={194}/>
+                    <Image src={slide9} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide10} width={194} height={194}/>
+                    <Image src={slide10} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide11} width={194} height={194}/>
+                    <Image src={slide11} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide12} width={194} height={194}/>
+                    <Image src={slide12} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide13} width={194} height={194}/>
+                    <Image src={slide13} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide14} width={194} height={194}/>
+                    <Image src={slide14} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide15} width={194} height={194}/>
+                    <Image src={slide15} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide16} width={194} height={194}/>
+                    <Image src={slide16} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide17} width={194} height={194}/>
+                    <Image src={slide17} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide18} width={194} height={194}/>
+                    <Image src={slide18} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide19} width={194} height={194}/>
+                    <Image src={slide19} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 <div className="carousel-cell">
-                    <Image src={slide20} width={194} height={194}/>
+                    <Image src={slide20} width={194} height={194} alt="cheeta coalition"/>
                 </div>
                 </Flickity>
                 <Image src={bbtm} className="img-fluid"/>
