@@ -1,9 +1,12 @@
 html,
 body {
+  background-color: #000;
+  color: #fff;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Oxanium', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
@@ -13,4 +16,361 @@ a {
 
 * {
   box-sizing: border-box;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+.page-element {
+  position: relative;
+}
+.ch-component{
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+}
+.page-container{
+  margin-top: 90px !important;
+}
+.container-fluid{
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 0px 30px; 
+}
+.pt-60{
+  padding-top: 60px;
+}
+.pb_100{
+  padding-bottom: 100px;
+}
+/*Navbar*/
+.site-header__logo-link span {
+  width: 200px !important;
+}
+.navbar-dark .navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+  box-shadow: none;
+  border-radius: 0px;
+}
+.cheetah-nav{
+  background-color: #000;
+  padding: 30px 0px 25px;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.bar1, .bar2, .bar3 {
+  width: 21px;
+  height: 2px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: 0.4s;
+  display: block;
+}
+.site-nav li {
+  display: inline-block;
+}
+.site-nav__link {
+  font-weight: 400;
+  position: relative;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  white-space: nowrap;
+  transition: padding 0.3s ease;
+  font-size: 24px;
+}
+.site-nav__link:hover,
+.site-nav__link:focus,
+.site-nav__link:active,
+.site-nav__link.active {
+  color: #ffd600;
+}
+.site-nav__link .site-nav__title {
+  position: relative;
+  padding: 0 10px;
+}
+
+/*Hero*/
+h1{
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#hero h4{
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #999;
+}
+.hero .ch-btn{
+  background: #FFD600;
+  box-shadow: 0px 3px 11px rgba(255, 255, 255, 0.25);
+  border-radius: 9px;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+}
+#hero .border_left{
+  display: block;
+  position: relative;
+}
+#hero .border_left:before{
+  content: "";
+  background-image: url(../public/border_left.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -35px;
+  top: 20px;
+  height: 100%;
+  width: 40px;
+}
+#hero .cheetah-slider{
+  overflow: hidden;
+}
+.main-carousel {
+  padding: 30px 0px 30px 0px;
+}
+#hero .carousel-cell {
+  width: 25%;
+  margin-right: 5%;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+}
+/*FAQ*/
+#faq h4{
+  font-family: 'Oxanium', cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  padding-bottom: 5px;
+  margin-top: 28px;
+}
+#faq p{
+  padding-top: 10px;
+}
+#faq ul{
+  padding-top: 12px;
+}
+/*Roadmap*/
+#roadmap h2{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 0px;
+}
+#roadmap .box {
+  background: #FFD600;
+  box-shadow: 0px 7px 4px 11px rgb(255 255 255 / 10%);
+  border-radius: 61px;
+}
+#roadmap .box-content{
+  padding: 40px 0px 40px 40px;
+}
+#roadmap .box-content p{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+}
+#roadmap .img_bottom{
+  vertical-align: bottom;
+  left: -65px !important;
+  top: 13px !important;
+}
+#roadmap .stepimg2 span,
+#roadmap .col-3 span{
+  overflow: visible !important;
+}
+#roadmap .arrow_step2{
+  top: -110px !important;
+}
+#roadmap .step-1 span,
+#roadmap .step-3 span{
+  width: 120px !important;
+}
+#roadmap .step-3 {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+}
+#roadmap .step-multiple-arrows{
+  position: relative;
+}
+/*Staking*/
+#staking .staking-info{
+  border: 4px solid #FBF104;
+  box-sizing: border-box;
+  border-radius: 56px;
+  text-align: center;
+  padding: 30px 20px 20px;
+}
+#staking h5{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+#staking .staking-info p{
+  margin-bottom: 0px;
+  padding-top: 15px;
+}
+#staking .stak-info {
+  min-height: 300px;
+  border: 5px solid #FBF104;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 50px;
+}
+#staking .stak-meta{
+  position: relative;
+}
+#staking .stak-meta .text-left,
+#staking .stak-meta .text-right{
+  position: absolute;
+  border: 3px solid #FBF104;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px 15px;
+}
+#staking .stak-meta .text-left{
+  left: 0;
+}
+#staking .stak-meta .text-right{
+  right: 0;
+}
+/*Mint*/
+#mint{
+  margin-top: 90px;
+}
+#mint h1{
+  font-family: 'Oxanium', cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+#mint .mint-items li{
+  padding-bottom: 15px;
+}
+.mint-info{
+    padding: 25px 20px;
+    min-height: 250px;
+}
+.mint-box {
+  background: #FDD503;
+  box-shadow: 0px 10px 10px rgb(255 255 255 / 25%);
+  border-radius: 21px;
+}
+.mint-box h2{
+  font-family: 'Oxanium', cursive;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #000;
+}
+.mint-box .btn-connect{
+  background: #000000;
+  border-radius: 12px;
+  color: #fff;
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+/*Footer*/
+.footer-content{
+  padding: 10px 0px;
+}
+
+  .navbar-brand.abs{
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+@media(max-width:991px){
+  #navbarSupportedContent{
+    position: absolute;
+    top: 90px;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    z-index: -1;
+    left: 0;
+    padding: 0px 20px 10px;
+  }
+}
+@media(max-width:767px){
+  .site-header__logo-link span {
+    width: 175px !important;
+  }
+  .social-link span {
+    width: 48px !important;
+  }
+  #roadmap .box .col-3{
+    width: 24%;
+  }
+  #staking .staking-info p{
+    padding-bottom: 20px;
+  }
+  .cheetah-nav{
+    width: 100%;
+  }
+  #hero{
+    padding-top: 40px;
+    text-align: center;
+  }
+  #hero h1,
+  #hero h4{
+    text-align: center;
+  }
+  #roadmap h2,
+  #hero h1{
+    font-size: 40px;
+  }
+  .faqs-content .pb_100{
+    padding-bottom: 40px;
+    padding-top: 20px;
+  }
+  #mint h1{
+    margin-bottom: 30px;
+  }
+}
+@media(max-width:480px){
+  
+  .site-header__logo-link span {
+    width: 145px !important;
+  }
+  .container-fluid{
+    padding: 0px 15px;
+  }
 }
