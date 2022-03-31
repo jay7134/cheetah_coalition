@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/globals.css';
 import { useEffect } from "react";
-import Layout from '../components/Layout';
+
 import 'animate.css';
+import Layout from '../components/Temp';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -12,7 +13,7 @@ function MyApp({ Component, pageProps }) {
     <>
     <Layout>
       <Component {...pageProps} />
-      </Layout>
+    </Layout>  
     </>
   );
 }
