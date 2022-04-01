@@ -52,7 +52,7 @@ export default function Faq() {
                             <li>7% fee for less than 21 days staked</li>
                         </ul>  
                         </div>
-                        <div className="col-md-6 animate__animated animate__slideInUp animate__delay-1s">
+                        <div className="col-md-6 animate__animated animate__slideInUp">
                             <Image className="img-fluid" src={faq_img2} width={586} height={166} alt="staking"/>
                         </div>
                         </div>  
@@ -71,7 +71,7 @@ export default function Faq() {
                     </div>
                 </div>
             </div>
-            <div className="col-md-3 animate__animated animate__slideInUp animate__delay-1s">
+            <div className="col-md-3 animate__animated animate__slideInUp">
                 <Image className="img-fluid" src={faq_img3} width={414} height={243} alt="faqs"/> 
             </div>
         </div>
