@@ -34,7 +34,11 @@ export default function Navbar() {
         						<span className="site-nav__title">Roadmap</span>
 							</a></Link>
 						</li>
-						
+						<li className="nav-item">
+							<Link href="https://google.com"><a target="_blank" className="site-nav__link">
+        						<span className="site-nav__title">Staking</span>
+							</a></Link>
+						</li>
 					</ul>
 				</div>
 				
